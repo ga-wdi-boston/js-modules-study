@@ -57,6 +57,11 @@ function ModuleFactory(args) {
 
 let myModule = ModuleFactory(someArgs);
 // How would you use the getter and setter methods? What would they do?
+// You could use the getterMethod to retrieve the value of the variable and
+// the setterMethod to set the variable.  To use the getterMethod, you would
+// need to invoke ModuleFactory() without arguments; and to use the setterMethod
+// you would need to invoke ModuleFactory() with a value passed as an
+// argument
 ```
 
 ### IIFEs
@@ -78,6 +83,9 @@ let myModule = (function(arg, transform) {
 })(someValue, someFunction);
 
 // How would you use myModule?
+// I would use myModule to transform whatever argument I pass.  The cool thing
+// about myModule is that I won't be able to accidentally change the value
+// variable.
 ```
 
 From outside, we can't access the variable `value` inside the module. This is
@@ -140,6 +148,10 @@ actual function declaration, then, and it'll be the same, won't it?
 1.  Remove the declaration of `f` from the lines above our declaration of
     `myModule`.
 1.  Run the script again and observe any difference in the result.
+
+```js
+// I get the result [Function: g] 10 times
+```
 
 ### Checkpoint 3
 
