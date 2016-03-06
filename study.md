@@ -149,10 +149,6 @@ actual function declaration, then, and it'll be the same, won't it?
     `myModule`.
 1.  Run the script again and observe any difference in the result.
 
-```js
-// I get the result [Function: g] 10 times
-```
-
 ### Checkpoint 3
 
 Compare the code you've created and compare it to the code at the beginning of
