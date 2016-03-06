@@ -58,6 +58,9 @@ function ModuleFactory(args) {
 let myModule = ModuleFactory(someArgs);
 // How would you use the getter and setter methods? What would they do?
 ```
+I would use the getterMethod to get a variable that is defined
+by a transformation of arguments I passed in. I would use the setterMethod to
+pass in a value and set it as the value of the defined variable.
 
 ### IIFEs
 
@@ -79,6 +82,7 @@ let myModule = (function(arg, transform) {
 
 // How would you use myModule?
 ```
+I would use myModule to transform an argument I pass it and return that value.
 
 From outside, we can't access the variable `value` inside the module. This is
 the hiding bit we were talking about. However, we do get a return value, which
@@ -145,6 +149,8 @@ actual function declaration, then, and it'll be the same, won't it?
 
 Compare the code you've created and compare it to the code at the beginning of
 this section.
+
+f is not defined and therefore the function is not running.
 
 ## Lab: Exploring Modules in Node (CommonJS Standard)
 
