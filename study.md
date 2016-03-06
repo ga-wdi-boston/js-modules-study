@@ -150,7 +150,7 @@ actual function declaration, then, and it'll be the same, won't it?
 Compare the code you've created and compare it to the code at the beginning of
 this section.
 
-The function g is being returned 10 times rather than numbers.
+f is not defined and therefore the function is not running.
 
 ## Lab: Exploring Modules in Node (CommonJS Standard)
 
