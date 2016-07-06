@@ -127,6 +127,8 @@ var myModule = (function(arg, transform) {
 1.  Run the script again. Observe that this makes no actual change in what the
     code does. Surrounding a value with parens does nothing to change it.
 
+    Parentheses fucked it up.
+
 ### Checkpoint 2
 
 Since we named our function `f`, we know that the `f` being called where we
@@ -140,6 +142,8 @@ actual function declaration, then, and it'll be the same, won't it?
 1.  Remove the declaration of `f` from the lines above our declaration of
     `myModule`.
 1.  Run the script again and observe any difference in the result.
+
+console.logs [Function: g] 10 times.
 
 ### Checkpoint 3
 
