@@ -114,6 +114,18 @@ var myModule = (function(arg, transform) {
     do something more interesting.
 1.  Run the script with `node index.js`.
 
+<!-- Result:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 -->
+
 ### Checkpoint 1
 
 1.  Open [`lib/inline.js`](lib/inline.js).
@@ -126,6 +138,8 @@ var myModule = (function(arg, transform) {
 
 1.  Run the script again. Observe that this makes no actual change in what the
     code does. Surrounding a value with parens does nothing to change it.
+
+    <!-- function doesnt run with parentheses around  -->
 
 ### Checkpoint 2
 
@@ -141,10 +155,25 @@ actual function declaration, then, and it'll be the same, won't it?
     `myModule`.
 1.  Run the script again and observe any difference in the result.
 
+<!-- Result:
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+[Function: g]
+even if i take away the parentheses-->
+
 ### Checkpoint 3
 
 Compare the code you've created and compare it to the code at the beginning of
 this section.
+
+<!-- Both set myModule into a function. so they should return a function when called -->
 
 ## Lab: Exploring Modules in Node (CommonJS Standard)
 
