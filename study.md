@@ -116,6 +116,9 @@ var myModule = (function(arg, transform) {
 
 ### Checkpoint 1
 
+RESPONSE NOTE: FOLLOWING THE INSTRUCTIONS GIVEN IN THIS EXERCISE DOES NOT
+PRODUCE THE EXPECTED RESULT.
+
 1.  Open [`lib/inline.js`](lib/inline.js).
 1.  Put a pair of parens (`(` and `)`) around our declaration of `f`.
 
