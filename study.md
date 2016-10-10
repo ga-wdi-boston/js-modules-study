@@ -57,6 +57,7 @@ function ModuleFactory(args) {
 
 let myModule = ModuleFactory(someArgs);
 // How would you use the getter and setter methods? What would they do?
+// getters would return the value associated with the object.  Setters would let you manipulate this value.
 ```
 
 ### IIFEs
@@ -78,6 +79,7 @@ let myModule = (function(arg, transform) {
 })(someValue, someFunction);
 
 // How would you use myModule?
+// this module could be used as a constructor that associates a function and a value to an object.
 ```
 
 From outside, we can't access the variable `value` inside the module. This is
