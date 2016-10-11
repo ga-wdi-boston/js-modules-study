@@ -57,6 +57,12 @@ function ModuleFactory(args) {
 
 let myModule = ModuleFactory(someArgs);
 // How would you use the getter and setter methods? What would they do?
+
+myModule(someArgs).getterMethod;
+myModule(someArgs).setterMethod;
+
+The getter returns the value of variable
+The setter sets the value of variable
 ```
 
 ### IIFEs
@@ -78,6 +84,8 @@ let myModule = (function(arg, transform) {
 })(someValue, someFunction);
 
 // How would you use myModule?
+
+myModule(someValue, someFunction);
 ```
 
 From outside, we can't access the variable `value` inside the module. This is
