@@ -57,7 +57,8 @@ function ModuleFactory(args) {
 
 let myModule = ModuleFactory(someArgs);
 // How would you use the getter and setter methods? What would they do?
-```
+``` getter: type myModule.getterMethod() to see the variable's value.
+setter: myModule.setterMethod() to set the variable's value
 
 ### IIFEs
 
@@ -78,9 +79,9 @@ let myModule = (function(arg, transform) {
 })(someValue, someFunction);
 
 // How would you use myModule?
-```
+// ``` to transform the argument that is passed```
 
-From outside, we can't access the variable `value` inside the module. This is
+From outside, we cannot access the variable `value` inside the module. This is
 the hiding bit we were talking about. However, we do get a return value, which
 is a function in this case. It can just as easily be an array or an object
 with many properties. Note that the function we built inside the module has
