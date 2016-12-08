@@ -140,10 +140,14 @@ actual function expression, then, and it'll be the same, won't it?
     `myModule`.
 1.  Run the script again and observe any difference in the result.
 
+Am I missing something? It does the same thing.
+
 ### Checkpoint 3
 
 Compare the code you've created and compare it to the code at the beginning of
 this section.
+
+It's more efficient, that's for sure.
 
 ## Lab: Exploring Modules in Node (CommonJS Standard)
 
