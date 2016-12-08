@@ -57,7 +57,8 @@ function ModuleFactory(args) {
 
 let myModule = ModuleFactory(someArgs);
 // How would you use the getter and setter methods? What would they do?
-```
+```They do exactly what you'd expect--get and set an otherwise inaccessible
+value.
 
 ### IIFEs
 
@@ -126,7 +127,7 @@ var myModule = (function(arg, transform) {
 
 1.  Run the script again. Observe that this makes no actual change in what the
     code does. Surrounding a value with parens does nothing to change it.
-
+ <!-- actually for some reason, mine is telling me "f is not defined" when I do that. Not sure if my closing parens is after the wrong } -->
 ### Checkpoint 2
 
 Since we named our function `f`, we know that the `f` being called where we
@@ -140,6 +141,7 @@ actual function declaration, then, and it'll be the same, won't it?
 1.  Remove the declaration of `f` from the lines above our declaration of
     `myModule`.
 1.  Run the script again and observe any difference in the result.
+<!-- Mine is returning Function: g nine times. Not sure if it is supposed to. -->
 
 ### Checkpoint 3
 
