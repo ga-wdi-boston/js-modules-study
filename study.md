@@ -107,24 +107,28 @@ var myModule = (function(arg, transform) {
 
 ### Checkpoint 0
 
-1.  Open [`lib/inline.js`](lib/inline.js).
-1.  Read the code in detail and attempt to understand the intent.
-1.  Leave `f` as-is or alter it to create a more interesting module.
+1.  Open [`lib/inline.js`](lib/inline.js). x
+1.  Read the code in detail and attempt to understand the intent. x
+1.  Leave `f` as-is or alter it to create a more interesting module. x
 1.  Leave the statements toward the end of the document as-is or alter them to
-    do something more interesting.
-1.  Run the script with `node inline.js`.
+    do something more interesting. x
+1.  Run the script with `node lib/inline.js`. x
+
+* Console.logged 0 through 9.
 
 ### Checkpoint 1
 
-1.  Open [`lib/inline.js`](lib/inline.js).
-1.  Put a pair of parens (`(` and `)`) around the function assigned to `f`.
+1.  Open [`lib/inline.js`](lib/inline.js). x
+1.  Put a pair of parens (`(` and `)`) around the function assigned to `f`. x
 
     Recall that the function expression begins with the keyword `function` and
     ends with the closing curly brace (`}`) following the function body. Your
     opening paren belongs before the letter 'f' in `function` and your closing
     paren belongs after `}`.
 1.  Run the script again. Observe that this makes no actual change in what the
-    code does. Surrounding a value with parens does nothing to change it.
+    code does. Surrounding a value with parens does nothing to change it. x
+
+* Console.logged 0 through 9.
 
 ### Checkpoint 2
 
@@ -133,17 +137,19 @@ define `myModule` is the same function, right? We can replace `f` with the
 actual function expression, then, and it'll be the same, won't it?
 
 1.  Copy the declaration of `f` in [`lib/inline.js`](lib/inline.js), with the
-    parens that surround it.
+    parens that surround it. x
 1.  Substitute the declaration you copied for `f` in the line where we declare
-    and define the variable `myModule`.
+    and define the variable `myModule`. x
 1.  Remove the declaration of `f` from the lines above our declaration of
-    `myModule`.
-1.  Run the script again and observe any difference in the result.
+    `myModule`. x
+1.  Run the script again and observe any difference in the result. x
+
+* Function 'g' was returned 10 times in the console.
 
 ### Checkpoint 3
 
 Compare the code you've created and compare it to the code at the beginning of
-this section.
+this section. x
 
 ## Lab: Exploring Modules in Node (CommonJS Standard)
 
