@@ -62,7 +62,7 @@ function ModuleFactory(args) {
 }
 
 let myModule = ModuleFactory(someArgs);
-// How would you use the getter and setter methods? What would they do?
+// 
 ```
 
 ### IIFEs
